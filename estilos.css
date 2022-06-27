@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #E5E5E5;
+  font-family: "Roboto";
+  width: 375;
+  height:667;
+  /* min-height: 100%; */
+}
+
+.topo {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: space-between;
+  display: flex;
+}
+
+.topo ion-icon{
+  display: flex;
+  width: 42px;
+  height: 31px;
+}
+
+.conteudo{
+  justify-content: space-between;
+  height: 100vh;
+  position: flex;
+  /* background-color: blue; */
+}
+
+.bate_papo {
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* background-color: orange; */
+}
+
+.bate_papo li {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.bottom_bar{
+  display: flex;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: green;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 145px;
+  height: 30px;
+  left: 17px;
+  top: 612px;
+
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+
+}
